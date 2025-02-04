@@ -11,7 +11,7 @@ app.listen(port, () => {
 
 const tweet = async () => {
   try {
-    await twitterClient.v2.tweet("Hello world!");
+    await twitterClient.v2.tweet("Check this out..!!");
   } catch (e) {
     console.log(e)
   }
